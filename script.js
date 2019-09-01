@@ -10,15 +10,13 @@ let answer2 = prompt('Input cost:', '55');
 let expences = {
     answer1: answer2
 };
-let optionalExpences,
-    income;
 
 let appData = {
-    money,
-    time,
-    expences,
-    optionalExpences,
-    income,
+    budget: money,
+    t: time,
+    expences: {},
+    optionalExpences: {},
+    income: {},
     savings: false,
 };
 
